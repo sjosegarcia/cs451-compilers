@@ -1,0 +1,99 @@
+{
+    "JCompilationUnit:3":
+    {
+        "source": "/home/siyer/Dropbox/teaching/cs451_assessments/project3/MultiLineComment.java",
+        "imports": ["java.lang.System"],
+        "JClassDeclaration:6":
+        {
+            "modifiers": ["public"],
+            "name": "MultiLineComment",
+            "super": "java.lang.Object",
+            "JMethodDeclaration:12":
+            {
+                "name": "main",
+                "returnType": "void",
+                "modifiers": ["public", "static"],
+                "parameters": [["args", "String[]"]],
+                "JBlock:12":
+                {
+                    "JVariableDeclaration:14":
+                    {
+                        "JVariableDeclarator:14":
+                        {
+                            "name": "name",
+                            "type": "String",
+                            "Initializer":
+                            {
+                                "JArrayExpression:14":
+                                {
+                                    "TheArray":
+                                    {
+                                        "JVariable:14":
+                                        {
+                                            "name": "args"
+                                        }
+                                    },
+                                    "TheIndex":
+                                    {
+                                        "JLiteralInt:14":
+                                        {
+                                            "type": "",
+                                            "value": "0"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:17":
+                    {
+                        "JMessageExpression:17":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:17":
+                                {
+                                    "operator": "+",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JBinaryExpression:17":
+                                        {
+                                            "operator": "+",
+                                            "type": "",
+                                            "Operand1":
+                                            {
+                                                "JLiteralString:17":
+                                                {
+                                                    "type": "",
+                                                    "value": "Hi, "
+                                                }
+                                            },
+                                            "Operand2":
+                                            {
+                                                "JVariable:17":
+                                                {
+                                                    "name": "name"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JLiteralString:17":
+                                        {
+                                            "type": "",
+                                            "value": ". How are you?"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

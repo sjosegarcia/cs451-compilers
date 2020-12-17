@@ -1,0 +1,2327 @@
+{
+    "JCompilationUnit:1":
+    {
+        "source": "/home/siyer/Dropbox/teaching/cs451_assessments/project3/Literals.java",
+        "imports": ["java.lang.System"],
+        "JClassDeclaration:3":
+        {
+            "modifiers": ["public"],
+            "name": "Literals",
+            "super": "java.lang.Object",
+            "JMethodDeclaration:4":
+            {
+                "name": "main",
+                "returnType": "void",
+                "modifiers": ["public", "static"],
+                "parameters": [["args", "String[]"]],
+                "JBlock:4":
+                {
+                    "JStatementExpression:6":
+                    {
+                        "JMessageExpression:6":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralInt:6":
+                                {
+                                    "type": "",
+                                    "value": "0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:7":
+                    {
+                        "JMessageExpression:7":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralInt:7":
+                                {
+                                    "type": "",
+                                    "value": "9"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:8":
+                    {
+                        "JMessageExpression:8":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralInt:8":
+                                {
+                                    "type": "",
+                                    "value": "20"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:9":
+                    {
+                        "JMessageExpression:9":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralInt:9":
+                                {
+                                    "type": "",
+                                    "value": "29"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:10":
+                    {
+                        "JMessageExpression:10":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralInt:10":
+                                {
+                                    "type": "",
+                                    "value": "1234567890"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:13":
+                    {
+                        "JMessageExpression:13":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralLong:13":
+                                {
+                                    "type": "",
+                                    "value": "1l"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:14":
+                    {
+                        "JMessageExpression:14":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralLong:14":
+                                {
+                                    "type": "",
+                                    "value": "9L"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:15":
+                    {
+                        "JMessageExpression:15":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralLong:15":
+                                {
+                                    "type": "",
+                                    "value": "10l"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:16":
+                    {
+                        "JMessageExpression:16":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralLong:16":
+                                {
+                                    "type": "",
+                                    "value": "99L"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:17":
+                    {
+                        "JMessageExpression:17":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralLong:17":
+                                {
+                                    "type": "",
+                                    "value": "1234567890l"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:18":
+                    {
+                        "JMessageExpression:18":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralLong:18":
+                                {
+                                    "type": "",
+                                    "value": "1234567890L"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:21":
+                    {
+                        "JMessageExpression:21":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:21":
+                                {
+                                    "type": "",
+                                    "value": "0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:22":
+                    {
+                        "JMessageExpression:22":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:22":
+                                {
+                                    "type": "",
+                                    "value": "0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:23":
+                    {
+                        "JMessageExpression:23":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:23":
+                                {
+                                    "type": "",
+                                    "value": "450d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:24":
+                    {
+                        "JMessageExpression:24":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:24":
+                                {
+                                    "type": "",
+                                    "value": "120D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:25":
+                    {
+                        "JMessageExpression:25":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:25":
+                                {
+                                    "type": "",
+                                    "value": "1234567890d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:26":
+                    {
+                        "JMessageExpression:26":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:26":
+                                {
+                                    "type": "",
+                                    "value": "0987654321D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:27":
+                    {
+                        "JMessageExpression:27":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:27":
+                                {
+                                    "type": "",
+                                    "value": "0e2"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:28":
+                    {
+                        "JMessageExpression:28":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:28":
+                                {
+                                    "type": "",
+                                    "value": "9e9"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:29":
+                    {
+                        "JMessageExpression:29":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:29":
+                                {
+                                    "type": "",
+                                    "value": "0e9d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:30":
+                    {
+                        "JMessageExpression:30":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:30":
+                                {
+                                    "type": "",
+                                    "value": "9e0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:31":
+                    {
+                        "JMessageExpression:31":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:31":
+                                {
+                                    "type": "",
+                                    "value": "0e2D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:32":
+                    {
+                        "JMessageExpression:32":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:32":
+                                {
+                                    "type": "",
+                                    "value": "9e2D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:33":
+                    {
+                        "JMessageExpression:33":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:33":
+                                {
+                                    "type": "",
+                                    "value": "246e13"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:34":
+                    {
+                        "JMessageExpression:34":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:34":
+                                {
+                                    "type": "",
+                                    "value": "246e13d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:35":
+                    {
+                        "JMessageExpression:35":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:35":
+                                {
+                                    "type": "",
+                                    "value": "246e13D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:36":
+                    {
+                        "JMessageExpression:36":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:36":
+                                {
+                                    "type": "",
+                                    "value": "0e+2"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:37":
+                    {
+                        "JMessageExpression:37":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:37":
+                                {
+                                    "type": "",
+                                    "value": "9e-9"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:38":
+                    {
+                        "JMessageExpression:38":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:38":
+                                {
+                                    "type": "",
+                                    "value": "0e-9d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:39":
+                    {
+                        "JMessageExpression:39":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:39":
+                                {
+                                    "type": "",
+                                    "value": "9e+0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:40":
+                    {
+                        "JMessageExpression:40":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:40":
+                                {
+                                    "type": "",
+                                    "value": "0e+2D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:41":
+                    {
+                        "JMessageExpression:41":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:41":
+                                {
+                                    "type": "",
+                                    "value": "9e-2D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:42":
+                    {
+                        "JMessageExpression:42":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:42":
+                                {
+                                    "type": "",
+                                    "value": "246e+13"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:43":
+                    {
+                        "JMessageExpression:43":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:43":
+                                {
+                                    "type": "",
+                                    "value": "246e-13"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:44":
+                    {
+                        "JMessageExpression:44":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:44":
+                                {
+                                    "type": "",
+                                    "value": "246e+13d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:45":
+                    {
+                        "JMessageExpression:45":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:45":
+                                {
+                                    "type": "",
+                                    "value": "246e-13d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:46":
+                    {
+                        "JMessageExpression:46":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:46":
+                                {
+                                    "type": "",
+                                    "value": "246e+13D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:47":
+                    {
+                        "JMessageExpression:47":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:47":
+                                {
+                                    "type": "",
+                                    "value": "246e-13D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:48":
+                    {
+                        "JMessageExpression:48":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:48":
+                                {
+                                    "type": "",
+                                    "value": "0."
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:49":
+                    {
+                        "JMessageExpression:49":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:49":
+                                {
+                                    "type": "",
+                                    "value": "1."
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:50":
+                    {
+                        "JMessageExpression:50":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:50":
+                                {
+                                    "type": "",
+                                    "value": "0.d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:51":
+                    {
+                        "JMessageExpression:51":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:51":
+                                {
+                                    "type": "",
+                                    "value": "1.d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:52":
+                    {
+                        "JMessageExpression:52":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:52":
+                                {
+                                    "type": "",
+                                    "value": "0.D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:53":
+                    {
+                        "JMessageExpression:53":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:53":
+                                {
+                                    "type": "",
+                                    "value": "1.D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:54":
+                    {
+                        "JMessageExpression:54":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:54":
+                                {
+                                    "type": "",
+                                    "value": "1234567890."
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:55":
+                    {
+                        "JMessageExpression:55":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:55":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:56":
+                    {
+                        "JMessageExpression:56":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:56":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:57":
+                    {
+                        "JMessageExpression:57":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:57":
+                                {
+                                    "type": "",
+                                    "value": "0.e0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:58":
+                    {
+                        "JMessageExpression:58":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:58":
+                                {
+                                    "type": "",
+                                    "value": "1.e1"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:59":
+                    {
+                        "JMessageExpression:59":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:59":
+                                {
+                                    "type": "",
+                                    "value": "0.e0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:60":
+                    {
+                        "JMessageExpression:60":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:60":
+                                {
+                                    "type": "",
+                                    "value": "1.e1D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:61":
+                    {
+                        "JMessageExpression:61":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:61":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.e135"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:62":
+                    {
+                        "JMessageExpression:62":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:62":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.e135d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:63":
+                    {
+                        "JMessageExpression:63":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:63":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.e135D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:64":
+                    {
+                        "JMessageExpression:64":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:64":
+                                {
+                                    "type": "",
+                                    "value": ".0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:65":
+                    {
+                        "JMessageExpression:65":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:65":
+                                {
+                                    "type": "",
+                                    "value": ".1"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:66":
+                    {
+                        "JMessageExpression:66":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:66":
+                                {
+                                    "type": "",
+                                    "value": ".0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:67":
+                    {
+                        "JMessageExpression:67":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:67":
+                                {
+                                    "type": "",
+                                    "value": ".1d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:68":
+                    {
+                        "JMessageExpression:68":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:68":
+                                {
+                                    "type": "",
+                                    "value": ".0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:69":
+                    {
+                        "JMessageExpression:69":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:69":
+                                {
+                                    "type": "",
+                                    "value": ".1D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:70":
+                    {
+                        "JMessageExpression:70":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:70":
+                                {
+                                    "type": "",
+                                    "value": ".0987654321"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:71":
+                    {
+                        "JMessageExpression:71":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:71":
+                                {
+                                    "type": "",
+                                    "value": ".1234567890"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:72":
+                    {
+                        "JMessageExpression:72":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:72":
+                                {
+                                    "type": "",
+                                    "value": ".0987654321D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:73":
+                    {
+                        "JMessageExpression:73":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:73":
+                                {
+                                    "type": "",
+                                    "value": ".1234567890d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:74":
+                    {
+                        "JMessageExpression:74":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:74":
+                                {
+                                    "type": "",
+                                    "value": ".0987654321d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:75":
+                    {
+                        "JMessageExpression:75":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:75":
+                                {
+                                    "type": "",
+                                    "value": ".1234567890D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:76":
+                    {
+                        "JMessageExpression:76":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:76":
+                                {
+                                    "type": "",
+                                    "value": "0.0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:77":
+                    {
+                        "JMessageExpression:77":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:77":
+                                {
+                                    "type": "",
+                                    "value": "1.0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:78":
+                    {
+                        "JMessageExpression:78":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:78":
+                                {
+                                    "type": "",
+                                    "value": "99.0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:79":
+                    {
+                        "JMessageExpression:79":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:79":
+                                {
+                                    "type": "",
+                                    "value": "100.0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:80":
+                    {
+                        "JMessageExpression:80":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:80":
+                                {
+                                    "type": "",
+                                    "value": "999.9"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:81":
+                    {
+                        "JMessageExpression:81":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:81":
+                                {
+                                    "type": "",
+                                    "value": "111.1"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:82":
+                    {
+                        "JMessageExpression:82":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:82":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.0987654321"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:83":
+                    {
+                        "JMessageExpression:83":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:83":
+                                {
+                                    "type": "",
+                                    "value": "0.0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:84":
+                    {
+                        "JMessageExpression:84":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:84":
+                                {
+                                    "type": "",
+                                    "value": "1.0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:85":
+                    {
+                        "JMessageExpression:85":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:85":
+                                {
+                                    "type": "",
+                                    "value": "99.0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:86":
+                    {
+                        "JMessageExpression:86":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:86":
+                                {
+                                    "type": "",
+                                    "value": "100.0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:87":
+                    {
+                        "JMessageExpression:87":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:87":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.1234567890d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:88":
+                    {
+                        "JMessageExpression:88":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:88":
+                                {
+                                    "type": "",
+                                    "value": "24680.13579D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:89":
+                    {
+                        "JMessageExpression:89":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:89":
+                                {
+                                    "type": "",
+                                    "value": "0.0e0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:90":
+                    {
+                        "JMessageExpression:90":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:90":
+                                {
+                                    "type": "",
+                                    "value": "0.0E0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:91":
+                    {
+                        "JMessageExpression:91":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:91":
+                                {
+                                    "type": "",
+                                    "value": "0.0e0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:92":
+                    {
+                        "JMessageExpression:92":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:92":
+                                {
+                                    "type": "",
+                                    "value": "0.0E0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:93":
+                    {
+                        "JMessageExpression:93":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:93":
+                                {
+                                    "type": "",
+                                    "value": "0.0e0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:94":
+                    {
+                        "JMessageExpression:94":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:94":
+                                {
+                                    "type": "",
+                                    "value": "0.0E0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:95":
+                    {
+                        "JMessageExpression:95":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:95":
+                                {
+                                    "type": "",
+                                    "value": "0.e0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:96":
+                    {
+                        "JMessageExpression:96":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:96":
+                                {
+                                    "type": "",
+                                    "value": "0.E0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:97":
+                    {
+                        "JMessageExpression:97":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:97":
+                                {
+                                    "type": "",
+                                    "value": "0.e0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:98":
+                    {
+                        "JMessageExpression:98":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:98":
+                                {
+                                    "type": "",
+                                    "value": "0.E0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:99":
+                    {
+                        "JMessageExpression:99":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:99":
+                                {
+                                    "type": "",
+                                    "value": "0.e0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:100":
+                    {
+                        "JMessageExpression:100":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:100":
+                                {
+                                    "type": "",
+                                    "value": "0.E0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:101":
+                    {
+                        "JMessageExpression:101":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:101":
+                                {
+                                    "type": "",
+                                    "value": ".0e0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:102":
+                    {
+                        "JMessageExpression:102":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:102":
+                                {
+                                    "type": "",
+                                    "value": ".0E0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:103":
+                    {
+                        "JMessageExpression:103":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:103":
+                                {
+                                    "type": "",
+                                    "value": ".0e0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:104":
+                    {
+                        "JMessageExpression:104":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:104":
+                                {
+                                    "type": "",
+                                    "value": ".0E0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:105":
+                    {
+                        "JMessageExpression:105":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:105":
+                                {
+                                    "type": "",
+                                    "value": ".0e0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:106":
+                    {
+                        "JMessageExpression:106":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:106":
+                                {
+                                    "type": "",
+                                    "value": ".0E0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:107":
+                    {
+                        "JMessageExpression:107":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:107":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.1234567890e135"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:108":
+                    {
+                        "JMessageExpression:108":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:108":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.1234567890e135d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:109":
+                    {
+                        "JMessageExpression:109":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:109":
+                                {
+                                    "type": "",
+                                    "value": "1234567890.1234567890e135D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:110":
+                    {
+                        "JMessageExpression:110":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:110":
+                                {
+                                    "type": "",
+                                    "value": "0.1e+0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:111":
+                    {
+                        "JMessageExpression:111":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:111":
+                                {
+                                    "type": "",
+                                    "value": "0.1E+0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:112":
+                    {
+                        "JMessageExpression:112":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:112":
+                                {
+                                    "type": "",
+                                    "value": "1.0e-0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:113":
+                    {
+                        "JMessageExpression:113":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:113":
+                                {
+                                    "type": "",
+                                    "value": "1.0E-0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:114":
+                    {
+                        "JMessageExpression:114":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:114":
+                                {
+                                    "type": "",
+                                    "value": "0.0e+0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:115":
+                    {
+                        "JMessageExpression:115":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:115":
+                                {
+                                    "type": "",
+                                    "value": "0.0E+0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:116":
+                    {
+                        "JMessageExpression:116":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:116":
+                                {
+                                    "type": "",
+                                    "value": "0.0e-0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:117":
+                    {
+                        "JMessageExpression:117":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:117":
+                                {
+                                    "type": "",
+                                    "value": "0.0E-0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:118":
+                    {
+                        "JMessageExpression:118":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:118":
+                                {
+                                    "type": "",
+                                    "value": "0.0e-0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:119":
+                    {
+                        "JMessageExpression:119":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:119":
+                                {
+                                    "type": "",
+                                    "value": "0.0E-0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:120":
+                    {
+                        "JMessageExpression:120":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:120":
+                                {
+                                    "type": "",
+                                    "value": "0.0e+0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:121":
+                    {
+                        "JMessageExpression:121":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:121":
+                                {
+                                    "type": "",
+                                    "value": "0.0E+0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:122":
+                    {
+                        "JMessageExpression:122":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:122":
+                                {
+                                    "type": "",
+                                    "value": "1.e+0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:123":
+                    {
+                        "JMessageExpression:123":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:123":
+                                {
+                                    "type": "",
+                                    "value": "1.E+0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:124":
+                    {
+                        "JMessageExpression:124":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:124":
+                                {
+                                    "type": "",
+                                    "value": "0.e-0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:125":
+                    {
+                        "JMessageExpression:125":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:125":
+                                {
+                                    "type": "",
+                                    "value": "0.E-0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:126":
+                    {
+                        "JMessageExpression:126":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:126":
+                                {
+                                    "type": "",
+                                    "value": "0.e+0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:127":
+                    {
+                        "JMessageExpression:127":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:127":
+                                {
+                                    "type": "",
+                                    "value": "0.E+0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:128":
+                    {
+                        "JMessageExpression:128":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:128":
+                                {
+                                    "type": "",
+                                    "value": "0.e-0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:129":
+                    {
+                        "JMessageExpression:129":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:129":
+                                {
+                                    "type": "",
+                                    "value": "0.E-0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:130":
+                    {
+                        "JMessageExpression:130":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:130":
+                                {
+                                    "type": "",
+                                    "value": "0.e-0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:131":
+                    {
+                        "JMessageExpression:131":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:131":
+                                {
+                                    "type": "",
+                                    "value": "0.E-0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:132":
+                    {
+                        "JMessageExpression:132":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:132":
+                                {
+                                    "type": "",
+                                    "value": "0.e+0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:133":
+                    {
+                        "JMessageExpression:133":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:133":
+                                {
+                                    "type": "",
+                                    "value": "0.E+0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:134":
+                    {
+                        "JMessageExpression:134":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:134":
+                                {
+                                    "type": "",
+                                    "value": ".1e+0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:135":
+                    {
+                        "JMessageExpression:135":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:135":
+                                {
+                                    "type": "",
+                                    "value": ".1E+0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:136":
+                    {
+                        "JMessageExpression:136":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:136":
+                                {
+                                    "type": "",
+                                    "value": ".0e-0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:137":
+                    {
+                        "JMessageExpression:137":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:137":
+                                {
+                                    "type": "",
+                                    "value": ".0E-0"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:138":
+                    {
+                        "JMessageExpression:138":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:138":
+                                {
+                                    "type": "",
+                                    "value": ".123e+0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:139":
+                    {
+                        "JMessageExpression:139":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:139":
+                                {
+                                    "type": "",
+                                    "value": ".098E+0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:140":
+                    {
+                        "JMessageExpression:140":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:140":
+                                {
+                                    "type": "",
+                                    "value": ".456e-0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:141":
+                    {
+                        "JMessageExpression:141":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:141":
+                                {
+                                    "type": "",
+                                    "value": ".765E-0d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:142":
+                    {
+                        "JMessageExpression:142":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:142":
+                                {
+                                    "type": "",
+                                    "value": ".789e-0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:143":
+                    {
+                        "JMessageExpression:143":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:143":
+                                {
+                                    "type": "",
+                                    "value": ".432E-0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:144":
+                    {
+                        "JMessageExpression:144":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:144":
+                                {
+                                    "type": "",
+                                    "value": ".012e+0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:145":
+                    {
+                        "JMessageExpression:145":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:145":
+                                {
+                                    "type": "",
+                                    "value": ".109E+0D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:146":
+                    {
+                        "JMessageExpression:146":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:146":
+                                {
+                                    "type": "",
+                                    "value": "123456789.e+135"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:147":
+                    {
+                        "JMessageExpression:147":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:147":
+                                {
+                                    "type": "",
+                                    "value": "123456789.e-135"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:148":
+                    {
+                        "JMessageExpression:148":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:148":
+                                {
+                                    "type": "",
+                                    "value": "123456789.e+135d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:149":
+                    {
+                        "JMessageExpression:149":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:149":
+                                {
+                                    "type": "",
+                                    "value": "123456789.e-135d"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:150":
+                    {
+                        "JMessageExpression:150":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:150":
+                                {
+                                    "type": "",
+                                    "value": "123456789.e+135D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:151":
+                    {
+                        "JMessageExpression:151":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:151":
+                                {
+                                    "type": "",
+                                    "value": "123456789.e-135D"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:152":
+                    {
+                        "JMessageExpression:152":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:152":
+                                {
+                                    "type": "",
+                                    "value": ".123456e+135"
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:153":
+                    {
+                        "JMessageExpression:153":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JLiteralDouble:153":
+                                {
+                                    "type": "",
+                                    "value": ".098765e-135"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

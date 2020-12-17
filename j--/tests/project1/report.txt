@@ -1,0 +1,53 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<< 5 >>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<2>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Using CLEmitter)
+      Approach: I looked at the other Gen*.java files as an example. It helped me pieced together the code,
+      also using the book to find many of the instructions needed. I first started by building the class as a empty husk.
+      After I went through and implemented "main", since there were examples of it. isPrime was a little trickier, but I did one condition at a time.
+
+      Issues and resolution: The issue was keeping track of the stack. Thanks to the error reporting. I figured out that my string buffer was 
+      only accepting ints, when it should have been accepting strings. Another issue I had was my conditionals, because they jump to a label when they return
+      true, it took me a little bit of time to piece together a proper flow.
+
+   Problem 2 (Arithmetic Operations)
+      Approach: This one was pretty easy, I looked at the other examples of unary and binary operators. The issue was building out the
+      acceptance of the token, it took some searching to find the switch statement, and where to place the ast code.
+
+      Issues and resolution: It was relatively straight forward to solve.
+
+   Problem 3 (Bitwise Operations)
+      Approach: It was pretty much the same as above.
+
+      Issues and resolution: The issue was with the complement operation. I forgot that another way it 
+      can be written is by XOR -1.
+
+   Problem 4 (Shift Operations)
+      Approach: Looked at the implentation of binary expressions. Built out the ast first to know where it falls under.
+
+      Issues and resolution: The issue I had was figuring out how to properly nest the upcoming character, to make sure
+      it lined up with the notation. As an example ">" but to know that the next character would be a ">" took some conditional nesting.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...

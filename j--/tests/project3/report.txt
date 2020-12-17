@@ -1,0 +1,68 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<< 6 >>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<< 3 >>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Long and Double Basic Types): First I took a look at how the character and int literal was implemented. I noticed that if the number reached
+   a certain threshold, you need to use a specific arugment instruction. Which is how I implemented double and long. Then the issue was that I had to modify return types
+   of functions to allow for doubles and long. Which cause it to return the proper value, but another issue I came across is that my doubles were being forcibly assigned to longs.
+   Which required some digging to find the descriptionFor() method, which produced the string representation of these types. But there was one other issue, I had to ensure that the proper
+   argument instructions were used for assigning a variable a long and double. Which ultimately worked at the end. I also had to ensure that the parser was able to recognize literals, and add
+   double and long as basicTypes.
+
+   Problem 2 (Operators): Operators were straight forward, thanks to the fact that I could use the structure of how other operators were implemented. For example JUnaryExpression 
+   contained half the implementation for pre and post ++ and --. All it required was some modifications, and tinkering one instruction on each class for it to function. 
+   The same goes for the operators that I was required to add in JComparison, JAssignment, and JBooleanBinaryExpression. This problem was relatively straight forward, it was more
+   time consuming than anything, especially when I had to go through the parser to ensure each was implemented with the same structure as the AST.
+
+   Problem 3 (Conditional Expression): This one was quite easy as well, first I had to follow the instructions of the AST to update the parser, then it required me
+   to implement JConditionalExpression created a new class that extended JExpression. Even though it was not required of me, the analysis and the codegen was easy to implement from
+   looking at JIfStatement. toJSON required me to ensure that everything printed in the right order.
+
+   Problem 4 (Switch Statement): I worked my way up on this one, first I implemented switchLabel, at first I had it return void. After that I implemented SwitchBlockStatementGroup
+   with the method returning void as well. After that I went up to the statement section of the and implemented that portion of switch statement. After which, I created JSwitchStatement.
+   Now I needed to figure out what data I needed. Switch led me to create a secondary class SwitchBlockStatementGroup which contained a list of JExpressions and JStatements. If there was a null
+   in the JExpression list, that would be my default case. Once I figured that out JSwitchStatement was relatively straight forward. The members of that class is the contion, and the switch groups.
+   All that was required next was to print the structure out in JSON format.
+
+   Problem 5 (Do Statement): Thankfully there was already an implemention of the while statement. The difference here, after implementing the AST was to do everything in a while statement; 
+   but in reverse. This one was one of the easier ones.
+
+   Problem 6 (For Statement): The AST really helped for this one, forInit(), condition, and forUpdate() are all optional parts of the for statement. So I had to attack the problem one by one.
+   I first implemented forInit, which required me to return back a list of JStatement ast, forUpdate() also required to return a list of JStatements. After which I had to feed JForStatement with both list,
+   the condition and the body.
+
+   Problem 7 (Break Statement): This one was quite short, parse out the AST for break and then extend JStatement to JBreakStatement. 
+
+   Problem 8 (Continue Statement): The same as break, implement the AST then make JContinueStatement a subclass of JStatement.
+
+   Problem 9 (Exception Handlers): This one I knew the best approach was to first add the AST for try, catch, finally, throw, and throws. Which I then had to modify JClassDeclaration and
+   JMethodDeclaration. I needed to update those classes to take in the exception object, and print them toJSON. After which I went and attacked the try-catch-finally statement. Each portion had its own block,
+   but with one difference. There can be more than one catch statement. This was the required signature for JTryStatement, but I could not forget JThrowStatement. After implementing the AST,
+   I had to feed the line number and JExpression to the constructor.
+
+   Problem 10 (Interface Type Declaration): After implementing the AST, I modified JClassDeclaration to recognize that a class has the capability of becoming a subclass.
+   The AST was straight forward because a lot of it contained the same elements as a class. The only difference between a normal class and a interface is that the body
+   of the member methods were not needed. 
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...

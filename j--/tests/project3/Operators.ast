@@ -1,0 +1,593 @@
+{
+    "JCompilationUnit:1":
+    {
+        "source": "/home/siyer/Dropbox/teaching/cs451_assessments/project3/Operators.java",
+        "imports": ["java.lang.Integer"],
+        "JClassDeclaration:3":
+        {
+            "modifiers": ["public"],
+            "name": "Operators",
+            "super": "java.lang.Object",
+            "JMethodDeclaration:4":
+            {
+                "name": "main",
+                "returnType": "void",
+                "modifiers": ["public", "static"],
+                "parameters": [["args", "String[]"]],
+                "JBlock:4":
+                {
+                    "JVariableDeclaration:5":
+                    {
+                        "JVariableDeclarator:5":
+                        {
+                            "name": "a",
+                            "type": "int",
+                            "Initializer":
+                            {
+                                "JMessageExpression:5":
+                                {
+                                    "ambiguousPart": "Integer",
+                                    "name": "parseInt",
+                                    "Argument":
+                                    {
+                                        "JArrayExpression:5":
+                                        {
+                                            "TheArray":
+                                            {
+                                                "JVariable:5":
+                                                {
+                                                    "name": "args"
+                                                }
+                                            },
+                                            "TheIndex":
+                                            {
+                                                "JLiteralInt:5":
+                                                {
+                                                    "type": "",
+                                                    "value": "0"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JVariableDeclaration:6":
+                    {
+                        "JVariableDeclarator:6":
+                        {
+                            "name": "b",
+                            "type": "int",
+                            "Initializer":
+                            {
+                                "JMessageExpression:6":
+                                {
+                                    "ambiguousPart": "Integer",
+                                    "name": "parseInt",
+                                    "Argument":
+                                    {
+                                        "JArrayExpression:6":
+                                        {
+                                            "TheArray":
+                                            {
+                                                "JVariable:6":
+                                                {
+                                                    "name": "args"
+                                                }
+                                            },
+                                            "TheIndex":
+                                            {
+                                                "JLiteralInt:6":
+                                                {
+                                                    "type": "",
+                                                    "value": "1"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:7":
+                    {
+                        "JMessageExpression:7":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:7":
+                                {
+                                    "operator": "!=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:7":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:7":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:8":
+                    {
+                        "JMessageExpression:8":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:8":
+                                {
+                                    "operator": "/=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:8":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:8":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:9":
+                    {
+                        "JMessageExpression:9":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:9":
+                                {
+                                    "operator": "-=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:9":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:9":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:10":
+                    {
+                        "JMessageExpression:10":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JUnaryExpression:10":
+                                {
+                                    "operator": "++ (pre)",
+                                    "type": "",
+                                    "Operand":
+                                    {
+                                        "JVariable:10":
+                                        {
+                                            "name": "a"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:11":
+                    {
+                        "JMessageExpression:11":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JUnaryExpression:11":
+                                {
+                                    "operator": "-- (post)",
+                                    "type": "",
+                                    "Operand":
+                                    {
+                                        "JVariable:11":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:12":
+                    {
+                        "JMessageExpression:12":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:12":
+                                {
+                                    "operator": "*=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:12":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:12":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:13":
+                    {
+                        "JMessageExpression:13":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:13":
+                                {
+                                    "operator": "%=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:13":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:13":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:14":
+                    {
+                        "JMessageExpression:14":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:14":
+                                {
+                                    "operator": ">>=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:14":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:14":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:15":
+                    {
+                        "JMessageExpression:15":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:15":
+                                {
+                                    "operator": ">>>=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:15":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:15":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:16":
+                    {
+                        "JMessageExpression:16":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:16":
+                                {
+                                    "operator": ">=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:16":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:16":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:17":
+                    {
+                        "JMessageExpression:17":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:17":
+                                {
+                                    "operator": "<<=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:17":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:17":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:18":
+                    {
+                        "JMessageExpression:18":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:18":
+                                {
+                                    "operator": "<",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:18":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:18":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:19":
+                    {
+                        "JMessageExpression:19":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:19":
+                                {
+                                    "operator": "^=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:19":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:19":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:20":
+                    {
+                        "JMessageExpression:20":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:20":
+                                {
+                                    "operator": "|=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:20":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:20":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:21":
+                    {
+                        "JMessageExpression:21":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:21":
+                                {
+                                    "operator": "||",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JBinaryExpression:21":
+                                        {
+                                            "operator": "==",
+                                            "type": "",
+                                            "Operand1":
+                                            {
+                                                "JVariable:21":
+                                                {
+                                                    "name": "a"
+                                                }
+                                            },
+                                            "Operand2":
+                                            {
+                                                "JVariable:21":
+                                                {
+                                                    "name": "b"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JBinaryExpression:21":
+                                        {
+                                            "operator": "==",
+                                            "type": "",
+                                            "Operand1":
+                                            {
+                                                "JVariable:21":
+                                                {
+                                                    "name": "b"
+                                                }
+                                            },
+                                            "Operand2":
+                                            {
+                                                "JVariable:21":
+                                                {
+                                                    "name": "a"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "JStatementExpression:22":
+                    {
+                        "JMessageExpression:22":
+                        {
+                            "ambiguousPart": "System.out",
+                            "name": "println",
+                            "Argument":
+                            {
+                                "JBinaryExpression:22":
+                                {
+                                    "operator": "&=",
+                                    "type": "",
+                                    "Operand1":
+                                    {
+                                        "JVariable:22":
+                                        {
+                                            "name": "a"
+                                        }
+                                    },
+                                    "Operand2":
+                                    {
+                                        "JVariable:22":
+                                        {
+                                            "name": "b"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

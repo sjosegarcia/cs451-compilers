@@ -1,0 +1,69 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<< 5 >>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<< 3 >>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Part I (Additions to JavaCC Scanner)
+
+   Problem 1 (Multiline Comment): This problem required me to look at the implementation of single line.
+   By following the implementation of single line comment and modifying it to recognize "/*" "*/" I was able to get it 
+   to SKIP the comment.
+
+   Problem 2 (Reserved Words): Reserved words was easy, all I had to do for this question was to append the words to the list,
+   and ensure it had the proper key and value from the AST.
+
+   Problem 3 (Operators): The same as above, this one took a bit of time, but it was not hard.
+
+   Problem 4 (Literals): Literals took a little bit of time. I implemented different keys for SUFFIX, EXPONENT, and DIGITS. Thanks to 
+   someone asking a question on piazza I was able finish this problem by using "()?" instead of "[]" in the grammar rules.
+
+   Part II (Additions to JavaCC Parser)
+   
+   Problem 5 (Long and Double Basic Types): At this point Basic Types was easy to implement, I had to add long and double as a type in basicType(). So the 
+   parser could recognize the key words. Then I implemented the the literal keywords in literal(). This allowed the types to be read by the parser and processed.
+
+   Problem 6 (Operators): Operators took a bit of time to implement. I first went to add all the missing methods for each specific grammar. I kept looking back 
+   and forth between parser.java and j--.jj. To ensure that the logic made sense.
+
+   
+   Problem 7 (Conditional Expression): This problem was implemented at the same time as above. It was pretty straightforward to implement. It
+   required that there was an optional control flow if <QUESTION> was found.
+
+   Problem 8 (Switch Statement): I thought this question was going to be hard, but it mostly required to implement "()*" every time I needed to iterate over and over.
+
+   Problem 9 (Do-While Statement): This was also pretty easy to implement. If I was stuck with the problem< I had while() to refer to.
+
+   Problem 10 (For Statement): I followed the appendix for this problem. But I also had an issue where "int" was sought. I figured out that if you use 
+   "LOOKAHEAD()" it can be used as a conditional statement. After I changed the code, it fixed the issue.
+
+   Problem 11 (Break Statement): This was straightforward since its an empty statement.
+
+   Problem 12 (Continue Statement): This was straightforward since its an empty statement.
+
+   Problem 13 (Exception Handlers): Exception handlers was not hard at all. I first went and implemented "THROW", since it was straight forward. Then I went to implement the try and catch statement.
+   try only has one block, while catch has multiple. The finally statement was also easy, since it only has one block.
+
+   Problem 14 (Interface Type Declaration): This one was straightforward. I pretty much referred to class implementation. This allowed me to me have a general idea of the code flow.
+   There were slight differences since the methods of an interface does not have a body.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   This homework was not hard, it was time consuming. I feel like I have a better idea of regular expressions aster this project.

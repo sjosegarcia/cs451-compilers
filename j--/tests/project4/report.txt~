@@ -1,0 +1,60 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<< >>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<< >>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Part I (Additions to JavaCC Scanner)
+
+   Problem 1 (Multiline Comment): ...
+
+   Problem 2 (Reserved Words): ...
+
+   Problem 3 (Operators): ...
+   
+   Problem 4 (Separators): ...
+
+   Problem 5 (Literals): ...
+
+   Part II (Additions to JavaCC Parser)
+   
+   Problem 6 (Long and Double Basic Types): ...
+
+   Problem 7 (Operators): ...
+   
+   Problem 8 (Conditional Expression): ...
+
+   Problem 9 (Switch Statement): ...
+
+   Problem 10 (Do-While Statement): ...
+
+   Problem 11 (For Statement): ...
+
+   Problem 12 (Break Statement): ...
+
+   Problem 13 (Continue Statement): ...
+
+   Problem 14 (Exception Handlers): ...
+
+   Problem 15 (Interface Type Declaration): ...
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...

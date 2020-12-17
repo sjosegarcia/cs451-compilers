@@ -1,0 +1,56 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<< 6 >>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<< 3 >>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Multiline Comment)
+      Approach: The approach to this solution was that to ignore everything in between the open and closing.
+      What worked was getting each character until we reach EOF. But if a * is found, then a /. Then we can assume,
+      that it is the end of the comment.
+
+      Issues and resolution: The issue was making sure we break out of the while-loop, and not consume everything else.
+      Another problem I faced, was making sure the next character was called (nextCh();) after each character check.
+
+   Problem 2 (Reserved Words)
+      Approach: I added all of these words in the TokenKind enum that exist in TokenInfo.java, but the reserved words did not show up.
+
+
+      Issues and resolution: I missed adding these words into the keyword list that exist in the constructor of Scanner.
+      These words are stored in a hashtable.
+
+   Problem 3 (Operators)
+      Approach: This one was a bit time consuming. I first added these words into the TokenKind enum. After I would have to go
+      into getNextToken(), and add these operators individually.
+
+      Issues and resolution: My issue was making sure that the token kept incrementing. Another issue was that the nested if statements
+      also made the situation messy. Besides the issues I faced, I managed to figure out how to implement the operators.
+   
+   Problem 4 (Literals)
+      Approach: This one took a bit of time, I went with a slow approach of first implementing long. Long required that "l" or "L"
+      was detected after the digits. But double proved to be much more difficult. The solution required me to break the logic into different
+      functions which accepts the buffer as a parameter.
+
+      Issues and resolution: It got sloppy, but once I figured out which parts were optional, and broke-out the scanning. It became 
+      much clearer where each component to the double belonged.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...

@@ -1,0 +1,125 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<< 13 >>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<< 4 >>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Long and Double Basic Types): 
+   This problem was straight forward. I started first by implementing the 
+   analyze and codegen for the literals. Long required that I removed "l" 
+   and "L". I then went on to add in the changes for Method, Constructor,
+   and Varialble Declaration. It was also straightforward, I had to add 
+   another offset for doubles and longs. I then moved to JVariable,
+   this is where I went ahead and added the switch statements to handle 
+   double and long, along with its registers. Then I had to modify
+   some of the operations that was used in the java file and ensured
+   that both operand sides were the same type. Finally I forgot
+   to add command line arguments to the program call, and thought
+   I had an error with my implementation.
+
+   Problem 2 (Operators):
+   This one was an extension of above, I had to make sure each type were the
+   same, but I also had to ensure that the proper registers were being used.
+   One thing I noticed was that bool (Z), was missing as a return type, which
+   caused errors with some of the boolean expressions. So I added it to
+   descriptorFor.
+   
+   Problem 3 (Conditional Expression):
+   This question was also easy, I refered to JIfStatement.java. All it required
+   was a few modifications in analyze, and the codegen to get a proper tunary
+   statement.
+
+   Problem 4 (Switch Statement):
+   This one took some time, first I analyzed everything. Then I ensured that
+   each case statement was casted to its proper type. Then I had to add a func
+   that will get the image of the literal. Then I had to collect all the 
+   cases, and find the lowest and the highest of each switch. Using the output
+   of this function, and calculating the number of labels minus the default 
+   case. I passed these arguments to a function that will calculate which
+   operation to use depedenting on the cases in the switch. Finally it
+   came time to work on the codegen. For the condition, I had to ensure
+   that it was not a conditional expression, but an int. Then I branched my
+   code out depending on the operation code. I would first create the case 
+   labels. Then pass through the instruction for the specific switch.
+   I would add the labels and codegen the statements. I also ensured that
+   any switch statement had a default case, even if its empty. It was
+   also very sneaky of you adding case 1 in both switches. I did not
+   realize that if the cases were labeled the same it would mess up the 
+   first switch.
+
+   Problem 5 (Do-While Statement):
+   This one was also straight forward. Thankfully I was able to use
+   while as an example. So I needed to modify the flow to go through the 
+   body first, then jump back to the top if the condition is met. I also
+   needed to make sure that the condition was a boolean, and a start label
+   was added.
+
+   Problem 6 (For Statement):
+   This problem was not hard either, first I had to create a local context.
+   The local context ensured that the code from inside cannot be accessed
+   from the outside. Then I analyzed the inits, condition, updates, and body.
+   Once this was done, I moved to codegen. I added the code for the codegen
+   of init, added a start label, codegen the condition, update codegen,
+   codegen for body, then added a end label. The endlabel is if the condition
+   is no longer satisfied. The start label was to make sure that we jump back
+   to the beginning no matter what.
+
+   Problem 7 (Break Statement):
+   I was only able to complete this question because of Swami's hint.
+   It made perfect sense to push the statement on to a static stack. Then the
+   pieces were put together. I pushed control flow statements like if, do, 
+   while, switch, and for. Which I popped off the stack in JBreakStatement.
+   The statement that was popped off was then stored in JBreakStatement. 
+   Which was a pointer to the original statement call. So once the
+   codegen for JBreakStatement was called, all I had to do was to ensure
+   that the GOTO instruction knew what label to jump to.
+
+   Problem 8 (Continue Statement):
+   So I pretty much copied what I did for break statement. The only difference
+   in this problem is that I needed the start of each statement to jump to its
+   label. Another thing I needed to add was the cast. I had to go into JCast
+   and add an int to double conversion.
+
+   Problem 9 (Exception Handlers):
+   This one took a some time. First I went ahead and resolved the exception
+   types. Then I added the names to a list which will be used by the 
+   addMethod functions this all happened in JMethod and JConstructor. 
+   After which I implemented the analyze and codegen function for 
+   JThrowStatement. Then I moved to implementing JTryStatement.
+   The analyze function took a little bit of time because I did not resolve
+   the types. But I ensured that each portion of the statement was operating
+   in the proper context. Codegen was straight forward to implement.
+   Then the issue came where it seemed that the test file did not
+   include the Math class, which I had to manually add. Then finally I
+   modifed JComparisonExpression to recognize doubles.
+
+   Problem 10 (Interface Type Declaration): 
+   This problem was not incredibly hard, there were some issues with the test
+   file that needed to be fixed. Which I corrected. I followed the 
+   implementation of JClassDeclaration. I made sure the types were resolved.
+   I also trimmed some of the fat from the code, because interfaces
+   do not inherit code from anywhere. I also had to make sure that addClass
+   in JClassDeclaration contained the names of the super classes which its
+   inheriting code from.
+
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...
